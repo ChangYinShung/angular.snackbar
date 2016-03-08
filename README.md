@@ -1,4 +1,4 @@
-Angular Snackbar
+﻿Angular Snackbar
 ================
 
 Pure [AngularJS](http://www.angularjs.org) based Snackbar Component.
@@ -61,12 +61,19 @@ app.controller('defaultController', function($scope, snackbar) {
 });
 
 ```
+## 新增 RemoveWithTimeout
+```javascript
+snackbar.removeWithTimeout("id", 500); //default 200
+
+```
 
 ## Browser Compatibility
 
 Report me please. I just tested on Chrome 39.0.2171.95 m.
 
 ## Changelogs
+### version 1.02
+- 新增 removeWithTimeout
 
 #### version 1.0.1
 - Reduce extra digest loops when hide (Thanks to codef0rmer)
